@@ -8,5 +8,5 @@ for elf in data:
 
 totals_sorted = sorted(totals, reverse=True)
 
-print(f"Solution 1: {totals_sorted[0]}")
-print(f"Solution 2: {totals_sorted[0] + totals_sorted[1] + totals_sorted[2]}")
+print(f"Solution 1: {max(totals_sorted)}")
+print(f"Solution 2: {sum(totals_sorted[:3])}")
