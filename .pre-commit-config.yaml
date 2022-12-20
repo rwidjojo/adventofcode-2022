@@ -11,10 +11,11 @@ repos:
       - id: check-yaml
 
   - repo: https://github.com/psf/black
-    rev: 20.8b1
+    rev: 22.1.0
     hooks:
       - id: black
         args: [ "--line-length", "131" ]
+        additional_dependencies: ['click==8.0.4']
 
   - repo: https://github.com/timothycrosley/isort
     rev: 5.6.4
@@ -23,6 +24,7 @@ repos:
         args: [ "--profile", "black" ]
 
   - repo: https://github.com/hadialqattan/pycln
-    rev: v1.1.0 # Possible releases: https://github.com/hadialqattan/pycln/releases
+    rev: v1.2.5 # Possible releases: https://github.com/hadialqattan/pycln/releases
     hooks:
       - id: pycln
+        additional_dependencies: ['click==8.0.4']
