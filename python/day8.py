@@ -39,7 +39,7 @@ def is_visible(point: int, first_neighbor: Optional[List[int]] = None, second_ne
 def get_scenic_index(point: int, neighbor: List[int]) -> int:
     scenic_index = 0
 
-    for idx, val in enumerate(neighbor):
+    for val in neighbor:
         scenic_index += 1
 
         if point <= val:
