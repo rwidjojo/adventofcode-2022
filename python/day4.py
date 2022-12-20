@@ -30,7 +30,7 @@ def check_overlap(list_one: List, list_two: List):
 totals_one = 0
 totals_two = 0
 
-with open("../data/day4.txt", "r") as file:
+with open("data/day4.txt", "r") as file:
     for line in file:
         x, y = line.split(",")
 

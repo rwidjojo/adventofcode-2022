@@ -1,4 +1,4 @@
-with open("../data/day2.txt", "r") as file:
+with open("data/day2.txt", "r") as file:
     data = file.read().split("\n")
 
 FIRST_SCORE_MAP = {

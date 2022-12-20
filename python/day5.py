@@ -1,7 +1,7 @@
 import re
 from typing import List
 
-with open("../data/day5.txt", "r") as file:
+with open("data/day5.txt", "r") as file:
     puzzle, moves = file.read().split("\n\n")
 
 

@@ -1,6 +1,6 @@
 from typing import Optional
 
-with open("../data/day6.txt", "r") as file:
+with open("data/day6.txt", "r") as file:
     packet = list(file.read())
 
 

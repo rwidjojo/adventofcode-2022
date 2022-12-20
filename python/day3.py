@@ -1,6 +1,6 @@
 from typing import List, Set
 
-with open("../data/day3.txt", "r") as file:
+with open("data/day3.txt", "r") as file:
     data = file.read().split("\n")
 
 
